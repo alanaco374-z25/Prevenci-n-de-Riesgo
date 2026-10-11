@@ -1,0 +1,78 @@
+/* Aplicación de las fuentes elegantes */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #334155;
+    background-color: #f8fafc;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Colores corporativos personalizados */
+.bg-custom-dark {
+    background-color: #0f172a !important;
+}
+
+.text-accent {
+    color: #10b981 !important; /* Verde seguridad moderno */
+}
+
+.btn-accent {
+    background-color: #10b981;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+    background-color: #059669;
+    transform: translateY(-2px);
+}
+
+.bg-accent-soft {
+    background-color: rgba(16, 185, 129, 0.1);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.text-muted-custom {
+    color: #94a3b8 !important;
+}
+
+.bg-light-custom {
+    background-color: #f1f5f9;
+}
+
+/* Tarjetas con efectos modernos */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0.05, 0.1, 0.1) !important;
+}
+
+.icon-box {
+    font-size: 2.5rem;
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-control, .form-select {
+    border-color: #e2e8f0;
+    border-radius: 8px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #10b981;
+    box-shadow: 0 0 0 0.25rem rgba(16, 185, 129, 0.15);
+}
